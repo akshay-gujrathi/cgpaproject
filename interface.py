@@ -8,7 +8,7 @@ import pandas as pd
 
 print('Welcome To Prediction App')
 
-with open(r'E:\Velocity_PythonDS\Git and PostmanAPI\Day100_19Jan2023\prac_CGPA_cal\project_app\cgpa.pkl','rb') as f:
+with open('cgpa.pkl','rb') as f:
     l_model = pickle.load(f)
 
 app=Flask(__name__)
